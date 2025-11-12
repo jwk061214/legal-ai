@@ -91,4 +91,10 @@
 브라우저에서 `http://localhost:8501` 주소로 접속하여 데모를 사용할 수 있습니다.
 
 ## 📂 프로젝트 구조
-. ├── app.py # Streamlit 메인 애플리케이션 ├── llm_service.py # Langchain 및 Ollama 연동 (AI 해석 생성) ├── legal_dict.py # 법률 용어 API 연동 (용어 정의 추출) ├── requirements.txt # 필요한 파이썬 라이브러리 목록 ├── .env # API 키 및 환경 변수 (Git에 포함되지 않음) └── README.md # 프로젝트 설명
+쉬운-법률-해석기/
+├── 📄 app.py              # Streamlit 메인 애플리케이션
+├── 🤖 llm_service.py      # Langchain 및 Ollama 연동 (AI 해석 생성)
+├── 📚 legal_dict.py       # 법률 용어 API 연동 (용어 정의 추출)
+├── 📦 requirements.txt    # 필요한 파이썬 라이브러리 목록
+├── 🔒 .env                # API 키 및 환경 변수 (Git에 포함되지 않음)
+└── 📖 README.md           # 프로젝트 설명
