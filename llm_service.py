@@ -76,7 +76,7 @@ def create_easy_legal_interpretation(original_text: str, term_definitions: dict)
     try:
         # 3. Gemini API 호출 (JSON 모드 사용)
         response = client.models.generate_content(
-            model="gemini-2.0-flash", # 또는 gemini-1.5-pro
+            model="gemini-2.5-flash", 
             contents=prompt,
             config=types.GenerateContentConfig(
                 temperature=0.3,
