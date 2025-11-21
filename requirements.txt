@@ -5,3 +5,8 @@ konlpy
 JPype1
 aiohttp
 google-genai
+datasets
+faiss-cpu
+sentence-transformers
+deepeval
+langchain-community
